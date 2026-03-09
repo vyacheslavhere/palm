@@ -23,7 +23,7 @@ upd(mention) {
 }
 
 test {
-  var mention "Hello, world!"
+  let mention "Hello, world!"
   do commit(mention)
   do push
 }
