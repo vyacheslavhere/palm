@@ -8,9 +8,9 @@ build {
 }
 
 commit(mention) {
-  print "performing commit..."
-  run "git commit -m " + mention
-  print "done"
+  echo "performing commit..."
+  run "git commit -m" + mention
+  echo "done"
 }
 
 push {
