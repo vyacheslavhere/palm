@@ -3,6 +3,8 @@
 
 #### 💡 Example
 ```
+# this is a comment
+
 build {
   run "cargo build --release"
 }
