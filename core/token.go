@@ -16,5 +16,5 @@ const (
 	Id     TokenKind = "Id"
 	Run    TokenKind = "Run"
 	String TokenKind = "String"
-	Concat TokenKind = "<>"
+	Concat TokenKind = "^"
 )
