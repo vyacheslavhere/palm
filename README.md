@@ -9,7 +9,7 @@ build {
 
 commit (mention) {
   echo "performing commit..."
-  run "git commit -m" + mention
+  run "git commit -m" <> mention
   echo "done"
 }
 
