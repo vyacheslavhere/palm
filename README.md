@@ -7,7 +7,7 @@ build {
   run "cargo build --release"
 }
 
-commit(mention) {
+commit (mention) {
   echo "performing commit..."
   run "git commit -m" + mention
   echo "done"
@@ -17,7 +17,7 @@ push {
   run "git push -u origin main"
 }
 
-upd(mention) {
+upd (mention) {
   do commit(mention)
   do push
 }
